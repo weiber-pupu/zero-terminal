@@ -23,3 +23,5 @@ ref-*
 *.png
 *.ico
 gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
