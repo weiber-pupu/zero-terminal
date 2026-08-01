@@ -1,0 +1,25 @@
+# 构建产物
+build/
+**/build/
+.gradle/
+.kotlin/
+
+# 本机环境
+local.properties
+*.iml
+.idea/
+.vscode/
+
+# 本机临时脚本/日志/截图
+*.log
+desktop-check*.png
+desktop-check.py
+run-desktop-check.bat
+运行桌面版.bat
+probe-*
+ref-*
+
+# 二进制资源不入库：图标由 tool/gen_icons.py 生成，wrapper 用本机 gradle 生成
+*.png
+*.ico
+gradle/wrapper/gradle-wrapper.jar
